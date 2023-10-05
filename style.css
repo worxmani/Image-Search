@@ -1,0 +1,97 @@
+/* Reset default margin, padding, and font family */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+/* Styling for the body of the webpage */
+body {
+  background: #4cadea; /* Background color */
+  color: #fff; /* Text color */
+}
+
+/* Styling for the logo image */
+.logo {
+  text-align: center;
+  width: 180px;
+  margin: 50px auto 20px; /* Centered with margin */
+  display: block;
+}
+
+/* Styling for the main heading */
+h1 {
+  text-align: center;
+  margin: 50px auto 50px; /* Centered with margin */
+  font-weight: 600; /* Bold font weight */
+}
+
+/* Styling for the search form */
+form {
+  width: 90%;
+  max-width: 600px; /* Limiting maximum width */
+  margin: auto; /* Centered with margin */
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background: #434989; /* Background color */
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Styling for the search input field */
+form input {
+  flex: 1;
+  height: 100%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #fff; /* Text color */
+  font-size: 18px;
+  padding: 0 30px; /* Left and right padding */
+}
+
+/* Styling for the search button */
+form button {
+  padding: 0 40px; /* Left and right padding */
+  height: 100%;
+  background: #ff3929; /* Background color */
+  color: #fff; /* Text color */
+  font-size: 18px;
+  border: 0;
+  outline: 0;
+  border-top-right-radius: 8px; /* Rounded corners */
+  border-bottom-right-radius: 8px; /* Rounded corners */
+  cursor: pointer; /* Cursor style on hover */
+}
+
+/* Styling for the "Show More" button */
+#show-more-button {
+  background: #ff3929; /* Background color */
+  color: #fff; /* Text color */
+  border: 0;
+  outline: 0;
+  padding: 10px 20px; /* Padding */
+  cursor: pointer; /* Cursor style on hover */
+  display: block; /* Display as a block-level element */
+  margin: 10px auto 100px; /* Centered with margin */
+  border-radius: 4px; /* Rounded corners */
+  display: none; /* Initially hidden */
+}
+
+/* Styling for the search result container */
+#search-result {
+  width: 80%;
+  margin: 100px auto 50px; /* Centered with margin */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Three equal columns */
+  grid-gap: 40px; /* Gap between grid items */
+}
+
+/* Styling for images within search results */
+#search-result img {
+  width: 100%;
+  height: 230px; /* Fixed image height */
+  object-fit: cover; /* Cover image within container */
+  border-radius: 5px; /* Rounded corners */
+}

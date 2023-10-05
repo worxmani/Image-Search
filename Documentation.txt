@@ -1,0 +1,102 @@
+
+# Image Search Engine Documentation
+
+## Introduction
+
+The **Image Search Engine** is a web application that allows users to search for images based on keywords. It utilizes the Unsplash API to fetch and display images related to the user's search query. This documentation will provide an overview of the application's functionality and how to use it.
+
+### Table of Contents
+
+1. **Files and Structure**
+   - `index.html`
+   - `style.css`
+   - `script.js`
+
+2. **Getting Started**
+   - Obtaining an API Key
+   - Adding Your API Key
+
+3. **Using the Application**
+   - Searching for Images
+   - Viewing Search Results
+   - Loading More Results
+
+4. **Support and Contact**
+   - Contact Information
+   - Source Code
+
+## Files and Structure
+
+The application consists of three main files:
+
+1. **`index.html`**: This HTML file defines the structure of the web page. It contains the search input, results container, and buttons.
+
+2. **`style.css`**: The CSS file provides the styling for the web page. It defines the layout, colors, and appearance of elements.
+
+3. **`script.js`**: This JavaScript file contains the application's logic. It handles user interactions, fetches data from the Unsplash API, and dynamically updates the web page.
+
+## Getting Started
+
+### Obtaining an API Key
+
+To use this application, you need to obtain an API key from Unsplash. Follow these steps to obtain your API key:
+
+1. Visit [Unsplash Developer](https://unsplash.com/developers) and sign in or create an account.
+
+2. Once logged in, go to the "Your Apps" section.
+
+3. Create a new application and fill in the required details.
+
+4. In the "Access Key" tab, you will find your API key. Copy this key for later use.
+
+### Adding Your API Key
+
+To make the application work with your API key, follow these steps:
+
+1. Open the `script.js` file in a code editor.
+
+2. Locate the following line in the script:
+
+   ```javascript
+   const apiKey = "YOUR_API_KEY_HERE";
+   ```
+
+3. Replace `"YOUR_API_KEY_HERE"` with the API key you obtained from Unsplash.
+
+   ```javascript
+   const apiKey = "o-IPoefXZa4chxXPvhuXWQoEcExgJiZpwsi3_FS44B4";
+   ```
+
+4. Save the changes to the `script.js` file.
+
+## Using the Application
+
+### Searching for Images
+
+1. Open the `index.html` file in a web browser.
+
+2. You will see the search input field labeled "Search Anything Here."
+
+3. Enter a keyword or phrase you want to search for (e.g., "nature," "architecture," "cats").
+
+4. Press the "Search" button or press Enter. The application will fetch and display image results related to your search query.
+
+### Viewing Search Results
+
+1. After performing a search, you will see a grid of images displayed on the page.
+
+2. Each image is a clickable link that will open the full-size image on Unsplash in a new browser tab.
+
+3. You can view multiple pages of search results by clicking the "Show More" button at the bottom of the page. This will load additional images related to your search.
+
+## Support and Contact
+
+If you have any questions or encounter issues while using the Image Search Engine, feel free to reach out for assistance.
+
+**Contact Information**:
+- [ManishWorx Website](https://www.manishworx.com) - Visit our website for more information.
+
+**Source Code**:
+- [GitHub Repository](https://github.com/worxmani) - The source code for this application is available on GitHub. You can access it, contribute, or report issues.
+
+Thank you for using the Image Search Engine! We hope you find it useful for discovering and exploring a wide range of images.
